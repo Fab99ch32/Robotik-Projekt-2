@@ -1,0 +1,3 @@
+float32 roboter_x
+float32 roboter_y
+float32 roboter_theta

@@ -1,0 +1,8 @@
+# Request => 2D Pose
+geometry_msgs/Pose2D pose
+---
+# Result => BOOL
+bool reached
+---
+# Feedback => Distanz
+float32 dist_to_goal
