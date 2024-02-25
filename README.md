@@ -13,7 +13,8 @@ Wenn ein entgegenkommender Roboter erkannt wird, muss der eigene Roboter diesem 
 - `logic_node`: Dieser Node enthält die Logik und die Entscheidungsfindung für den Roboter.
 - `move_node`: Dieser Node steuert die Bewegungen des Roboters.
 - `test_node`: Dieser Node dient zum Testen und Debuggen des Gesamtsystems.
-- `Regelung_node´ : Dieser Node dient zur Regelung der Roboter, damit der Roboter in der Mitte des Rohr fährt.  
+- `Regelung_node`: Dieser Node dient zur Regelung der Roboter, damit der Roboter in der Mitte des Rohr fährt.
+- `line_detection` : Dieser Node dient zur Erkennung der Linie in der Mitte des Rohr
 
 ## Ausführen der Nodes
 
@@ -36,5 +37,7 @@ Dann können Sie einzelne Node wie folgt ausführen:
 - "ros2 run test_node test_node"
 
 - "ros2 run Regelung_node Regelung_node"
+
+- "ros2 run line_detection line_detection "
 
 
